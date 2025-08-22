@@ -1,21 +1,21 @@
 alturas = []
 generos = []
 
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
-altura = float(input("Digite a altura em metros (ex: 1.75): "))
+altura = float(input("Digite a altura em metros ): "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros (: "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros: "))
+altura = float(input("Digite a altura em metros : "))
+altura = float(input("Digite a altura em metros  "))
 
 alturas.append(altura)
 
@@ -49,12 +49,12 @@ generos = []
 
 
 for i in range(15):
-    altura = float(input(f"Digite a altura da pessoa {i+1} em metros (ex: 1.75): "))
+    altura = float(input(f"Digite a altura da pessoa {i+1} em metros  "))
     alturas.append(altura)
     
-    genero = input(f"Digite o gênero da pessoa {i+1} (M ou F): ")
+    genero = input(f"Digite o genero da pessoa {i+1} (M ou F): ")
     while genero not in ['M', 'F']:
-        print("Gênero inválido! Digite apenas M ou F.")
+        print("genero invalid digite apenas M ou F.")
         genero = input(f"Digite o genero da pessoa {i+1} (M ou F): ")
     generos.append(genero)
 
@@ -84,5 +84,6 @@ else:
 
 print(f"O número de pessoas do gênero feminino é: {num_feminino}")
 #Codigo corrigido prof e simplificado tbm :)
+
 
 
